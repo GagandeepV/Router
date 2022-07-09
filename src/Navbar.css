@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     background: rgba(28, 75, 162, 0.588);
+    height: 60px;
 }
 
 .item {
