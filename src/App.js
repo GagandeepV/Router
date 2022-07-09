@@ -17,6 +17,7 @@ function App() {
           <Route path='/about' exact component={About} />
           <Route path='/profile' exact component={Profile} />
           <Route path='/shop' exact component={Shop} />
+          <Route path='/*' exact><h1>Page do no exist</h1></Route>
           <Route path='/shop/product/:id' exact component={Product}/>
         </Switch>
       </div>
