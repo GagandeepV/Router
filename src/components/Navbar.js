@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../Navbar.css'
 
 const Navbar = () => {
   return (
-      <nav style={{display:'flex', justifyContent:'space-around'}}>
-          <Link to="/" ><h3>Logo</h3></Link>
-          <ul style={{listStyleType:'none' ,display:'flex', gap:'1em' }}>
+      <nav className='container'>
+          <Link to="/" ><h1>&#8962;</h1></Link>
+          <ul className='item'>
               <Link to="/about" ><li>About</li></Link>
               <Link to="/profile" ><li>Profile</li></Link>
+              <Link to="/shop" ><li>Shop</li></Link>
           </ul>
       </nav>
     )

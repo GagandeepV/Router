@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(28, 75, 162, 0.588);
+}
+
+.item {
+    list-style-type: none;
+    display: flex;
+    gap: 5em;
+}
+
+.item :where(a){
+    color: black;
+    text-decoration: none;
+}
